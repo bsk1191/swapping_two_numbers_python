@@ -1,0 +1,13 @@
+# Swapping two numbers without taking third variable
+# x=5
+# y=10
+# x,y=y,x
+# print("after swapping the x value is {}, the y value is {}".format(x,y))
+
+# Swapping two numbers with taking third variable
+x=int(input())
+y=int(input())
+temp=x
+x=y
+y=temp
+print(x,y)
